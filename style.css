@@ -1,0 +1,47 @@
+.player {
+  max-width: 350px;
+  margin: 2em auto;
+  background: #fefefe;
+  padding: 1em;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #ccc;
+  font-family: 'sans-serif';
+  text-align: center;
+}
+
+.cover {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 1em;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.3em;
+}
+
+.subtitle {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 1em;
+}
+
+#seek {
+  width: 100%;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  margin: 0.3em 0;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  margin: 0 0.5em;
+  cursor: pointer;
+}

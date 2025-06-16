@@ -7,14 +7,28 @@
     <link rel="stylesheet" href="./style.css" type="text/css">
 </head>
 <body>
-    <header></header>
-    
     <main>
-        ASMRビューワー
+        <div class="player">
+            <img src="./resource/友人想いなシニカル後輩と肉欲に堕ちる/cover.webp" class="cover" alt="ジャケット">
+            
+            <div class="title">0-1.プロローグ.私の大事な友人</div>
+            <div class="subtitle">【快楽堕ち】友人想いなシニカル後輩と肉欲に堕ちる～後輩×罪悪感×お下品低音オホ声～【KU100】</div>
+        
+            <audio id="audio" src="./resource/友人想いなシニカル後輩と肉欲に堕ちる/音声/0-1.プロローグ.私の大事な友人.mp3"></audio>
+        
+            <input type="range" id="seek" value="0" step="0.01">
+            <div class="time">
+            <span id="current">00:00</span>
+            <span id="duration">00:00</span>
+            </div>
+        
+            <div class="controls">
+                <button onclick="skip(-10)">⏪</button>
+                <button onclick="togglePlay()">▶️ / ⏸️</button>
+                <button onclick="skip(10)">⏩</button>
+            </div>
+        </div>
     </main>
-    
-    <footer></footer>
-
     <script src="./main.js"></script>
 </body>
 </html>
